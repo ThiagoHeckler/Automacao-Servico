@@ -1,3 +1,4 @@
+package Para;
 
 import java.util.Scanner;
 public class St_Para
@@ -14,10 +15,11 @@ public class St_Para
             // Solicita ao usuário o MVA
             System.out.print("Digite o percentual do MVA: ");
             int decisao = scanner.nextInt();
+            double mva = 0;
             if(decisao == 1){
-                double mva = 30.37; //scanner.nextDouble();
+                mva = 30.37; //scanner.nextDouble();
             }else if(decisao == 2) {
-                double mva = 40.00; //scanner.nextDouble();
+                mva = 40.00; //scanner.nextDouble();
             }else{
                 System.out.println("Digitou errado!");
             }

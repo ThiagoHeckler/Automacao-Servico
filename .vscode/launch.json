@@ -6,16 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "St_Para",
-            "request": "launch",
-            "mainClass": "St_Para",
-            "projectName": "Codigos de automacao servico_468d31a3"
-        },
-        {
-            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "St_Para",
+            "request": "launch",
+            "mainClass": "Para.St_Para",
+            "projectName": "Automacao-Servico_7fc5d7b4"
         }
     ]
 }
